@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "chakrapetch-regular";
+    src: url(../fonts/ChakraPetch-Regular.ttf)
+}
+
+@font-face {
+    font-family: "chakrapetch-bold";
+    src: url(../fonts/ChakraPetch-Bold.ttf)
+}
+
+
+body {
+    margin: 0 auto;
+    overflow-y: hidden;
+}
+
+.logo {
+    padding-left: 25px;
+    margin-bottom: 24.75px;
+}
+
+
+.logo img{
+    width: 40%;
+}
+
+.menu-point {
+    padding: 21.75px 0 18px 0;
+    margin-left: 73.5px;
+}
+
+.menu-point img {
+    display: block;
+    padding-left: 25px;
+    float: left;
+}
+
+.menu-point-content {
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;  
+    line-height: 26.25px;  
+    padding-left: 157px;
+}
+
+h2 {
+    font-family: "chakrapetch-bold";   
+    font-size: 34px;
+    letter-spacing: 0.46px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 26.25px;
+    margin: 0;
+}
+
+h2 span {
+    color: #ff1d43;
+}
+
+
+p {
+    font-family: "chakrapetch-regular";
+    font-size: 17px;
+    letter-spacing: 0.28px;
+    color: #fff;
+    margin: 0;
+}
+
+.menu {
+    width: 30%;
+    padding: 34px 0 44px 0px;
+    background-color: #313435;
+    float: left;
+    position: fixed;
+}
+
+.container {
+    width: 70%;
+    float: right;
+}
+
+.product-info {
+    height: 1080px;
+    overflow-y: scroll;
+}
+
+.product-info::-webkit-scrollbar {
+    width: 0px;
+}
