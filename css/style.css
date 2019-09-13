@@ -119,3 +119,6 @@ p {
     width: 0px;
 }
 
+.active {
+    visibility: visible;
+}
