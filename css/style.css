@@ -32,7 +32,7 @@ body {
 .menu-point {
     display: block;
     padding: 20.50px 0 16.25px 0;
-    margin-left: 73.5px;
+    margin-left: 6%;
     border-bottom: 1.75px solid #414445;
 }
 
@@ -42,16 +42,20 @@ body {
     float: left;
 }
 
+.logo-image {
+    width: 4vw;
+}
+
 .menu-point-content {
     display: block;
     white-space: nowrap; 
     line-height: 26.25px;  
-    padding-left: 157px;
+    padding-left: 34%;
 }
 
 h2 {
     font-family: "chakrapetch-bold";   
-    font-size: 34px;
+    font-size: 1.8vw;
     letter-spacing: 0.46px;
     text-transform: uppercase;
     color: #fff;
@@ -67,7 +71,7 @@ h2 span {
 
 p {
     font-family: "chakrapetch-regular";
-    font-size: 17px;
+    font-size: 0.9vw;
     letter-spacing: 0.28px;
     color: #fff;
     margin: 0;
@@ -121,4 +125,14 @@ p {
 
 .active {
     visibility: visible;
+}
+
+@media (max-width: 1080px) {
+    .menu-class {
+        display: none;
+    }
+
+    .menu-point {
+        margin-left: 0;
+    }
 }
