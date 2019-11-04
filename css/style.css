@@ -132,11 +132,24 @@ p {
 }
 
 @media (max-width: 1080px) {
-    .menu-class {
+    .menu-point-content {
         display: none;
     }
 
-    .menu-point {
-        margin-left: 0;
+    .menu {
+        width: 14%;
+        height: 100%;
+    }
+
+    .container {
+        width: 86%
+    }
+
+    .arrow {
+        right: -15%;
+    }
+
+    .logo-image {
+        width: 10vw;
     }
 }
