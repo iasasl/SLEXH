@@ -16,12 +16,12 @@ body {
 
 .logo {
     padding-left: 25px;
-    margin-bottom: 24.75px;
+    margin-bottom: 13.75px;
 }
 
 
 .logo img{
-    width: 40%;
+    width: 47%;
 }
 
 .menu-point-link {
@@ -30,9 +30,10 @@ body {
 }
 
 .menu-point {
-    display: block;
-    padding: 20.50px 0 16.25px 0;
-    margin-left: 6%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10.50px 0 7.25px 0;
     border-bottom: 1.75px solid #414445;
 }
 
@@ -43,19 +44,20 @@ body {
 }
 
 .logo-image {
-    width: 4vw;
+    width: 3.55vw;
 }
 
 .menu-point-content {
     display: block;
     white-space: nowrap; 
     line-height: 26.25px;  
-    padding-left: 34%;
+    padding-left: 12%;
+    padding-top: 11px;
 }
 
 h2 {
     font-family: "chakrapetch-bold";   
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     letter-spacing: 0.46px;
     text-transform: uppercase;
     color: #fff;
@@ -71,7 +73,7 @@ h2 span {
 
 p {
     font-family: "chakrapetch-regular";
-    font-size: 0.9vw;
+    font-size: 0.8vw;
     letter-spacing: 0.28px;
     color: #fff;
     margin: 0;
@@ -99,18 +101,20 @@ p {
 
 .arrow {
     visibility: hidden;
+    position: absolute;
+    right: 0;
 }
 
 .menu {
-    width: 30%;
-    padding: 34px 0 44px 0px;
+    width: 25%;
+    padding: 14px 0 44px 0px;
     background-color: #313435;
     float: left;
     position: fixed;
 }
 
 .container {
-    width: 70%;
+    width: 75%;
     float: right;
 }
 
