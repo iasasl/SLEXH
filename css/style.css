@@ -103,10 +103,12 @@ p {
     visibility: hidden;
     position: absolute;
     right: 0;
+    width: 8.7%
 }
 
 .menu {
     width: 25%;
+    height: 100%;
     padding: 14px 0 44px 0px;
     background-color: #313435;
     float: left;
@@ -131,13 +133,35 @@ p {
     visibility: visible;
 }
 
+@media (max-width: 1600px) {
+    .menu-point {
+        padding-top: 1.6vh;
+    }
+
+    .menu-point-content {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 1440px) {
+    .menu-point {
+        padding-top: 1.4vh;
+    }
+}
+
+@media (max-width: 1280px) {
+    .menu-point-content h2 {
+        line-height: 1vh;
+    }
+}
+
 @media (max-width: 1080px) {
     .menu-point-content {
         display: none;
     }
 
     .menu-point {
-        height: 7.3vh;
+        height: 6.9vh;
     }
 
     .logo {
@@ -159,10 +183,18 @@ p {
     }
 
     .logo-image {
-        width: 10vw;
+        width: 5.7vw;
+        margin: 0 auto;
     }
 
     .menu-point img {
-        padding-left: 13%; 
+        padding-left: 0; 
     }
 }
+
+@media (max-width: 640px) {
+    .menu-point {
+        padding-top: 1.2vh;
+    }
+}
+
