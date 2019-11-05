@@ -13,7 +13,6 @@ menuPoints.forEach(function(item) {
     item.addEventListener('mouseup', function(){
         hideContent();
         const activeArrowId = this.querySelector('.active').id;
-        console.log(activeArrowId);
         findContent(activeArrowId, contentImages);
     });
 });
