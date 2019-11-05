@@ -133,6 +133,7 @@ p {
     visibility: visible;
 }
 
+
 @media (max-width: 1600px) {
     .menu-point {
         padding-top: 1.6vh;
