@@ -2,12 +2,19 @@
 
 const arrows = document.querySelectorAll('.arrow');
 const menuPoints = document.querySelectorAll('.menu-point-link');
-console.log(arrows);
+const contentImages = document.querySelectorAll('.product-info')
 
 menuPoints.forEach(function(item) {
-    item.addEventListener('mousedown', function(e) {
+    item.addEventListener('mousedown', function() {
         hideArrows();
-        this.querySelector('.arrow').classList.add('active');
+        const activeArrow = this.querySelector('.arrow');
+        activeArrow.classList.add('active');
+    });
+    item.addEventListener('mouseup', function(){
+        hideContent();
+        const activeArrowId = this.querySelector('.active').id;
+        console.log(activeArrowId);
+        findContent(activeArrowId, contentImages);
     });
 });
 
@@ -17,3 +24,14 @@ function hideArrows() {
     });
 };
 
+function hideContent() {
+    contentImages.forEach(item => item.hidden = true);
+}
+
+function findContent(activeArrowId, contentImages) {
+    contentImages.forEach(function(item) {
+        if (item.firstElementChild.id === activeArrowId) {
+            item.hidden = false;
+        }
+    });
+}
