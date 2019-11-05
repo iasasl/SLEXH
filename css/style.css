@@ -150,12 +150,6 @@ p {
     }
 }
 
-@media (max-width: 1280px) {
-    .menu-point-content h2 {
-        line-height: 1vh;
-    }
-}
-
 @media (max-width: 1080px) {
     .menu-point-content {
         display: none;
