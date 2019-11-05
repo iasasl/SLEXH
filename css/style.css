@@ -15,8 +15,8 @@ body {
 }
 
 .logo {
-    padding-left: 25px;
-    margin-bottom: 13.75px;
+    padding-left: 5%;
+    margin-bottom: 3%;
 }
 
 
@@ -33,13 +33,14 @@ body {
     position: relative;
     display: flex;
     align-items: center;
-    padding: 10.50px 0 7.25px 0;
-    border-bottom: 1.75px solid #414445;
+    padding: 2% 0 2% 0;
+    border-bottom: 0.2vh solid #414445;
+    height: 6.7vh;
 }
 
 .menu-point img {
     display: block;
-    padding-left: 25px;
+    padding-left: 5%;
     float: left;
 }
 
@@ -50,20 +51,19 @@ body {
 .menu-point-content {
     display: block;
     white-space: nowrap; 
-    line-height: 26.25px;  
+    line-height: 2.5vh;  
     padding-left: 12%;
-    padding-top: 11px;
 }
 
 h2 {
     font-family: "chakrapetch-bold";   
     font-size: 1.5vw;
-    letter-spacing: 0.46px;
+    letter-spacing: 0.05vw;
     text-transform: uppercase;
     color: #fff;
-    line-height: 26.25px;
+    line-height: 2.5vh;
     margin: 0;
-    margin-bottom: 5px;
+    margin-bottom: 0.7%;
 }
 
 h2 span {
@@ -74,7 +74,7 @@ h2 span {
 p {
     font-family: "chakrapetch-regular";
     font-size: 0.8vw;
-    letter-spacing: 0.28px;
+    letter-spacing: 0.01vw;
     color: #fff;
     margin: 0;
 }
@@ -109,7 +109,7 @@ p {
 .menu {
     width: 25%;
     height: 100%;
-    padding: 14px 0 44px 0px;
+    padding-top: 1.1%;
     background-color: #313435;
     float: left;
     position: fixed;
@@ -121,7 +121,7 @@ p {
 }
 
 .product-info {
-    height: 1080px;
+    height: 101vh;
     overflow-y: scroll;
 }
 
