@@ -2,7 +2,7 @@
 
 const arrows = document.querySelectorAll('.arrow');
 const menuPoints = document.querySelectorAll('.menu-point-link');
-const contentImages = document.querySelectorAll('.product-info')
+const contentImages = document.querySelectorAll('.product-info');
 
 menuPoints.forEach(function(item) {
     item.addEventListener('mousedown', function() {
@@ -31,6 +31,7 @@ function findContent(activeArrowId, contentImages) {
     contentImages.forEach(function(item) {
         if (item.firstElementChild.id === activeArrowId) {
             item.hidden = false;
+            item.scrollTop = 0;
         }
     });
 }
