@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "chakrapetch-regular";
-    src: url(../fonts/ChakraPetch-Regular.ttf)
+    font-family: "robotoslab-regular";
+    src: url(../fonts/RobotoSlab-Regular.ttf)
 }
 
 @font-face {
@@ -70,10 +70,9 @@ h2 span {
     color: #ff1d43;
 }
 
-
 p {
-    font-family: "chakrapetch-regular";
-    font-size: 0.8vw;
+    font-family: "robotoslab-regular";
+    font-size: 0.75vw;
     letter-spacing: 0.01vw;
     color: #fff;
     margin: 0;
