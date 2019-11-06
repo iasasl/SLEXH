@@ -11,9 +11,8 @@ menuPoints.forEach(function(item) {
         activeArrow.classList.add('active');
     });
     item.addEventListener('mouseup', function(){
-        hideContent();
         const activeArrowId = this.querySelector('.active').id;
-        findContent(activeArrowId, contentImages);
+        changeContent(activeArrowId, contentImages);
     });
 });
 
@@ -23,12 +22,9 @@ function hideArrows() {
     });
 };
 
-function hideContent() {
-    contentImages.forEach(item => item.hidden = true);
-}
-
-function findContent(activeArrowId, contentImages) {
+function changeContent(activeArrowId, contentImages) {
     contentImages.forEach(function(item) {
+        item.hidden = true;
         if (item.firstElementChild.id === activeArrowId) {
             item.hidden = false;
             item.scrollTop = 0;
