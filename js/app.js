@@ -9,8 +9,6 @@ menuPoints.forEach(function(item) {
         hideArrows();
         const activeArrow = this.querySelector('.arrow');
         activeArrow.classList.add('active');
-    });
-    item.addEventListener('mouseup', function(){
         const activeArrowId = this.querySelector('.active').id;
         changeContent(activeArrowId, contentImages);
     });
