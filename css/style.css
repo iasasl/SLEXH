@@ -27,6 +27,7 @@ body {
 .menu-point-link {
     display: block;
     text-decoration: none; 
+    cursor: pointer;
 }
 
 .menu-point {
